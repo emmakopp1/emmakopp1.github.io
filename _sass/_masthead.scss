@@ -50,19 +50,14 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  color: black;
+
+  &--a{
+    color: black;
+  }
 
   &--lg {
     padding-right: 3em;
-    font-weight: 900;
+    font-weight: 1200;
     color: black;
   }
-}
-
-.masthead__menu-item a {
-    color: black; /* Définit la couleur des liens dans les éléments de menu de la masthead en noir */
-  }
-
-.masthead__menu-item a:hover {
-    text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
 }
