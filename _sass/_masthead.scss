@@ -56,3 +56,9 @@
     font-weight: 700;
   }
 }
+
+.masthead__menu-item a {
+    font-size: 14px; // Réduit la taille de la police des liens
+    text-decoration: none; // Optionnel : enlève le soulignement des liens
+    color: #000000; // Optionnel : définit une couleur pour les liens
+  }
