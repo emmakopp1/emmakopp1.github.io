@@ -247,7 +247,6 @@ defaults:
   - scope:
       path: ""
       type: teaching
-      teacher: teaching
     values:
       layout: single
       author_profile: true
