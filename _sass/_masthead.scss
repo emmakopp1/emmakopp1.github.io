@@ -32,7 +32,6 @@
 
     a {
       text-decoration: none;
-      color:black;
     }
   }
 }
@@ -44,9 +43,7 @@
     clear: both;
     list-style-type: none;
   }
-  a {
-    color:black
-  }
+
 }
 
 .masthead__menu-item {
@@ -54,13 +51,8 @@
   list-style-type: none;
   white-space: nowrap;
 
-  &--a{
-    color: black;
-  }
-
   &--lg {
     padding-right: 3em;
     font-weight: 1200;
-    color: black;
   }
 }
