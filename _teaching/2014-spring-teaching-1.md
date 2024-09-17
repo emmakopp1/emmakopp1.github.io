@@ -1,6 +1,7 @@
 ---
 title: "Statistical Modelling"
 collection: teaching
+teacher: "Christian Robert"
 type: "3rd year of mathematic bachelor"
 permalink: 
 venue: "Paris-Dauphine University"
