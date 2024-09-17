@@ -50,10 +50,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  color: black;
 
   &--lg {
     padding-right: 3em;
     font-weight: 700;
-    color: #000000; // Optionnel : définit une couleur pour les liens
+    color: black;
   }
 }
