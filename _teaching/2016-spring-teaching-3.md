@@ -2,6 +2,7 @@
 title: "Journalism and Data"
 collection: teaching
 type: "3rd year of mathematic bachelor"
+teacher: "Robin Ryder"
 permalink: 
 venue: "Journalism Institute of Dauphine PSL"
 date: 2024-01-01

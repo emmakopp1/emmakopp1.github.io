@@ -2,6 +2,7 @@
 title: "Statistical Modelling"
 collection: teaching
 type: "3rd year of mathematic bachelor"
+teacher: "Judith Rousseau"
 permalink: 
 venue: "Paris-Dauphine University"
 date: 2024-09-01
