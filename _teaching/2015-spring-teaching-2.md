@@ -2,7 +2,7 @@
 title: "Statistical Modelling"
 collection: teaching
 type: "3rd year of mathematic bachelor"
-permalink: https://sites.google.com/view/statistical-modelling/home
+permalink: 
 venue: "Paris-Dauphine University"
 date: 2024-09-01
 location: "Paris, France"
