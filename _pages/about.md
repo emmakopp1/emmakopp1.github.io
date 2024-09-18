@@ -1,3 +1,12 @@
+---
+permalink: /
+title: ""
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 Hey! 
 ======
 I am an PhD student in Statistics in the CEREMADE at Paris-Dauphine University with Christian Robert and Robin Ryder.
