@@ -25,8 +25,8 @@ author:
   name             : "Emma Kopp"
   pronouns         : # example: "she/her"  
   bio              : "I am an PhD student in Statistics in the CEREMADE at Paris-Dauphine University with Christian Robert and Robin Ryder. My research focuses on Bayesian computational statistics (MCMC and ABC methods) and it’s applications to linguistics"
-  location         : "Earth"
-  employer         : "Paris-Dauphine University (PSL)"
+  location         : "Paris"
+  employer         : "Paris-Dauphine University"
   uri              : # URL
   email            : "kopp@ceremade.dauphine.fr" 
 
@@ -216,7 +216,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
   talks:
     output: true
@@ -261,15 +261,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  #- scope:
-  #    path: ""
-  #    type: portfolio
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    share: true
-  #    comment: true
+   #_portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""
