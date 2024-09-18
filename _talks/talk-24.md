@@ -5,7 +5,7 @@ collection: talks
 type: "Talk"
 permalink: 
 venue: "BAYSM 2023 and Rencontre des Jeunes Statisticiens"
-date: 2024
+date: 2024-01-01
 location: "Venice, Italia and Porquerolles, France"
 ---
 
