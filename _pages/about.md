@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hey! 
-======
+------
 I am an PhD student in Statistics in the CEREMADE at Paris-Dauphine University with Christian Robert and Robin Ryder.
 
 My research focuses on Bayesian computational statistics (MCMC and ABC methods) and it’s applications to linguistics. 
