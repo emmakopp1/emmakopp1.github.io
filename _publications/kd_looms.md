@@ -6,7 +6,7 @@ category: manuscripts
 permalink: 
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-09-01
-venue: 
+venue: 'preprint'
 slidesurl: 
 paperurl: 'https://osf.io/preprints/osf/8pz67'
 citation: ''
