@@ -1,12 +1,3 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 Hey! 
 ======
 I am an PhD student in Statistics in the CEREMADE at Paris-Dauphine University with Christian Robert and Robin Ryder.
