@@ -5,6 +5,7 @@
 /*
    Typography
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 $doc-font-size              : 16;
 
@@ -28,9 +29,13 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+/* adding Raleway as primary font */
+$raleway                    : "Raleway", sans-serif;
+
+/* applying Raleway to global, header, and caption fonts */
+$global-font-family         : $raleway;
+$header-font-family         : $raleway;
+$caption-font-family        : $raleway;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
