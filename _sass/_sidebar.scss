@@ -91,11 +91,12 @@
 
   img {
     max-width: 175px;
-    border-radius:0;
+    border-radius: 0px ;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      /*padding: 5px;*/
+      /*border: 1px solid $border-color;*/
+      border : none;
     }
   }
 }
