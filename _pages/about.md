@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm a 3rd year PhD student in Statistics in the CEREMADE at Paris-Dauphine University supervised by Robin  Ryder. My research focuses on Bayesian computational statistics (mostly MCMC) and its applications to economics and historical linguistics. 
+Hi! I'm a 3rd year PhD student in Statistics in the CEREMADE at Paris-Dauphine University supervised by Robin Ryder. My research focuses on Bayesian computational statistics (mostly MCMC) and its applications to economics and historical linguistics.
 
 I am currently visiting Francesca Panero at Sapienza University of Rome to work on food security estimation with Sahoko Ishida, and Rebecca Leygonie.
