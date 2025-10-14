@@ -59,9 +59,17 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Talks -->
+    {% if page.selected_talks %}
+      <h2>
+        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">talks</a>
+      </h2>
+      {% include selected_talks.liquid %}
     {% endif %}
 
     <!-- Social -->
