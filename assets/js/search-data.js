@@ -428,11 +428,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-example-course-title",
-          title: 'Example Course Title',
-          description: "A brief description of what this course covers",
+            },},{id: "teachings-statistical-modelling",
+          title: 'Statistical Modelling',
+          description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/1_example_course/";
+            },},{id: "teachings-introduction-to-probabilities",
+          title: 'Introduction to probabilities',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/2_probabilistic_course/";
             },},{
         id: 'social-email',
         title: 'email',
