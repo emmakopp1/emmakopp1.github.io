@@ -10,7 +10,6 @@ horizontal: false
 
 Here are the courses I taught during my PhD.
 
-
 <!-- pages/teaching.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -65,4 +64,3 @@ Here are the courses I taught during my PhD.
   {% endif %}
 {% endif %}
 </div>
-

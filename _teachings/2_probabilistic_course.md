@@ -11,4 +11,3 @@ category: L3
 - **Year**: 2025-2026
 
 This course is an introduction to probabilities. More coming soon.
-

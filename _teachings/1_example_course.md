@@ -12,4 +12,3 @@ category: L3
 - **Teacher**: Christan Robert & Judith Rousseau
 
 This course is an introduction to parametric statistics with a major focus on bootstrap and Monte Carlo methods including also R tutorials.
-
