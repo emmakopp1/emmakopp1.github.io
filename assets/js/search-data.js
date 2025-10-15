@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -428,6 +428,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-example-course-title",
+          title: 'Example Course Title',
+          description: "A brief description of what this course covers",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/1_example_course/";
             },},{
         id: 'social-email',
         title: 'email',
