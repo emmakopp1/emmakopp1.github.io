@@ -5,7 +5,6 @@ title: teaching
 description:
 nav: true
 nav_order: 6
-display_categories: [L3, M1, M2]
 horizontal: false
 ---
 
