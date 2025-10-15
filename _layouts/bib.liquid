@@ -92,12 +92,16 @@
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
+              <em>
+                {{- author.first }}
+                {{ author_last_html -}}
+              </em>
             </a>
           {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
+            <em>
+              {{- author.first }}
+              {{ author_last_html -}}
+            </em>
           {% endif %}
         {%- endif -%}
       {% endfor %}
