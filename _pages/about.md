@@ -36,4 +36,3 @@ My academic journey started in Paris doing a mathematic bachelor followed by a s
 After spending 25 years in Paris, traveling is real chance for me to meet discover new cultures and people. It allows me to discover new horizons, to open myself up, but also to understand what remains invariable for me. I get to know my interests better. On the personal side, I will never abandon movies and sports (even though the semi-marathon of Paris was one of my worst experiences). On the professional side, I love using data and computer science to help solving concrete problems. Projects that benefit society are particularly meaningful to me.
 
 ---
-
