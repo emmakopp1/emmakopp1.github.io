@@ -2,6 +2,11 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
 // Typography
 
 p,
