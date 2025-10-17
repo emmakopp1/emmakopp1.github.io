@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Emma
 middle_name:
 last_name: Kopp
-contact_note: kopp@ceremade.dauphine.eu
+contact_note: Hit me up!
 description: 3rd year PhD student in Paris-Dauphine University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
