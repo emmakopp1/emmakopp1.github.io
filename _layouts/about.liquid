@@ -19,15 +19,15 @@ layout: default
       <!-- Left column: Profile image and intro text -->
       <div class="col-md-6">
         {% if page.profile and page.profile.image %}
-          <div class="text-center mb-4">
+          <div class="text-center mb-3">
             {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
             {% if page.profile.image_circular %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}200px{% endcapture %}
-            <div style="max-width: 200px; margin: 0 auto;">
+            {% capture sizes %}150px{% endcapture %}
+            <div style="max-width: 150px; margin: 0 auto;">
               {%
                 include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
                 cache_bust=true
@@ -37,7 +37,7 @@ layout: default
         {% endif %}
 
         {% if page.intro_text %}
-          <p>{{ page.intro_text }}</p>
+          <p style="text-align: justify;">{{ page.intro_text }}</p>
         {% endif %}
       </div>
 
