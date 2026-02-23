@@ -15,30 +15,49 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+    <div class="row">
+      <!-- Left column: Profile image and intro text -->
+      <div class="col-md-6">
+        {% if page.profile and page.profile.image %}
+          <div class="text-center mb-4">
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}200px{% endcapture %}
+            <div style="max-width: 200px; margin: 0 auto;">
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            </div>
+          </div>
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+
+        {% if page.intro_text %}
+          <p>{{ page.intro_text }}</p>
         {% endif %}
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <!-- Right column: About me section -->
+      <div class="col-md-6">
+        <div class="about-me-box">
+          {% if page.about_me_text %}
+            {% assign paragraphs = page.about_me_text | split: "\n\n" %}
+            {% for paragraph in paragraphs %}
+              <p>{{ paragraph | strip }}</p>
+            {% endfor %}
+          {% endif %}
+
+          <!-- Social icons at bottom of about me box -->
+          <div class="social-icons-profile mt-4 pt-3" style="border-top: 1px solid var(--global-divider-color);">
+            {% include social.liquid %}
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="page-break"></div>
 

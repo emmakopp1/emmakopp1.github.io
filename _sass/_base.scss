@@ -1454,9 +1454,38 @@ figure.cover {
 
 // Page break for print and screen
 .page-break {
-  page-break-after: always;
-  break-after: page;
-  margin: 3rem 0;
-  border-bottom: 2px dashed var(--global-divider-color);
+  height: 50vh;
+  margin: 0;
+}
+
+// About me box styling
+.about-me-box {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Social icons under profile picture
+.social-icons-profile {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+  a {
+    color: var(--global-text-color);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
 }
 
