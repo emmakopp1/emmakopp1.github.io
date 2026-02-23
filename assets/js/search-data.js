@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-selected-talks",
-          title: "Selected talks",
+          title: "Selected Talks",
           description: "Check out my selected talks!",
           section: "Navigation",
           handler: () => {
