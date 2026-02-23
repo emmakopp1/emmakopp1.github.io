@@ -45,7 +45,7 @@ layout: default
       <div class="col-md-6">
         <div class="about-me-box">
           {% if page.about_me_text %}
-            {% assign paragraphs = page.about_me_text | split: "\n\n" %}
+            {% assign paragraphs = page.about_me_text | split: '\n\n' %}
             {% for paragraph in paragraphs %}
               <p>{{ paragraph | strip }}</p>
             {% endfor %}
