@@ -1451,3 +1451,11 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Page break for print and screen
+.page-break {
+  page-break-after: always;
+  break-after: page;
+  margin: 3rem 0;
+  border-bottom: 2px dashed var(--global-divider-color);
+}
