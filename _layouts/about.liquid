@@ -69,6 +69,8 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <div class="section-divider"></div>
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
@@ -84,6 +86,8 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+
+    <div class="section-divider"></div>
 
     <!-- Talks -->
     {% if page.selected_talks %}

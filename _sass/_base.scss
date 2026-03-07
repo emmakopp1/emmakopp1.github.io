@@ -1454,8 +1454,20 @@ figure.cover {
 
 // Page break for print and screen
 .page-break {
-  height: 50vh;
-  margin: 0;
+  position: relative;
+  height: 1px;
+  background-color: var(--global-divider-color);
+  margin-top: calc(100vh - 400px);
+  margin-bottom: 4rem;
+  border: none;
+}
+
+// Section divider between content sections
+.section-divider {
+  height: 1px;
+  background-color: var(--global-divider-color);
+  margin: 4rem 0;
+  border: none;
 }
 
 // About me box styling
