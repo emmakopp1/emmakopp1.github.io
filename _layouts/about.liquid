@@ -37,7 +37,7 @@ layout: default
         {% endif %}
 
         {% if page.intro_text %}
-          <p style="text-align: justify;">{{ page.intro_text }}</p>
+          <div style="text-align: justify;">{{ page.intro_text | markdownify }}</div>
         {% endif %}
       </div>
 
@@ -47,7 +47,7 @@ layout: default
           {% if page.about_me_text %}
             {% assign paragraphs = page.about_me_text | split: '\n\n' %}
             {% for paragraph in paragraphs %}
-              <p>{{ paragraph | strip }}</p>
+              <div>{{ paragraph | strip | markdownify }}</div>
             {% endfor %}
           {% endif %}
 
