@@ -387,8 +387,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-eating-gelato-in-roma",
-          title: 'Eating gelato 🍦 in Roma 🇮🇹',
+            },},{id: "news-awarded-a-prairie-excellence-scholarship-for-my-master-2-in-artificial-intelligence-systems-and-data-iasd-at-paris-dauphine-university-marking-my-first-academic-victory",
+          title: 'Awarded a prAIrie excellence scholarship for my Master 2 in Artificial Intelligence, Systems...',
+          description: "",
+          section: "News",},{id: "news-eating-gelato-in-roma-and-working-at-la-sapienza-as-a-visiting-student-with-francesca-panero-sahoko-ishida-and-rebecca-leygonie",
+          title: 'Eating gelato 🍦 in Roma 🇮🇹 and working at La Sapienza as a...',
           description: "",
           section: "News",},{id: "news-back-in-paris-after-spending-25-years-in-paris-traveling-is-real-chance-for-me-it-allows-me-to-discover-new-cultures-and-professional-environments-while-identifying-by-contrast-the-elements-essential-to-my-personal-balance-next-step-writing-the-thesis",
           title: 'Back in Paris! After spending 25 years in Paris, traveling is real chance...',
