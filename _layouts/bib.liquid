@@ -166,16 +166,16 @@
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% comment %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {% endif %}
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+        {% if entry.bibtex_show %}
+          <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
         {% endif %}
-      {% endif %}
+        {% if entry.html %}
+          {% if entry.html contains '://' %}
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {% else %}
+            <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {% endif %}
+        {% endif %}
       {% endcomment %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -185,7 +185,12 @@
         {% endif %}
       {% endif %}
       {% if entry.google_scholar_id %}
-        <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}" class="btn btn-sm z-depth-0" role="button">Scholar</a>
+        <a
+          href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+          class="btn btn-sm z-depth-0"
+          role="button"
+          >Scholar</a
+        >
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
@@ -281,18 +286,18 @@
             ></span>
           {% endif %}
           {% comment %}
-          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
-            <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
-              aria-label="Google Scholar link"
-              role="button"
-            >
-              <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+            {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
+              <a
+                href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+                aria-label="Google Scholar link"
+                role="button"
               >
-            </a>
-          {% endif %}
+                <img
+                  src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
+                  alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                >
+              </a>
+            {% endif %}
           {% endcomment %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
             <a
